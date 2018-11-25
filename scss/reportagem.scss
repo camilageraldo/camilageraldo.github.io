@@ -1,0 +1,76 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+
+body {
+    background-color: #fff;
+}
+header.masthead {
+    background-position: top center;
+    padding: 150px 0 90px;
+
+    .site-heading {
+        padding: 0;
+    }
+}
+main {
+    color: $gray_tcc;
+    padding-bottom: 50px;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $blue_tcc;
+    }
+
+    h2 {
+        padding-bottom: 20px;
+        font-size: 40px;
+    }
+
+    h3 {
+        padding: 30px 0 10px;
+    }
+
+
+
+    .conteudo-reportagem {
+        text-align: justify;
+        padding: 0 50px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.carousel-caption {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: #00000050;
+    padding: 20px;
+
+    p {
+        margin: 0;
+    }
+}
+
+.proxima,
+.anterior {
+    a {
+        text-decoration: none;
+    }
+}
+.proxima {
+    text-align: right;
+
+}
+.anterior {
+    text-align: left;
+}
+
+.w-80 {
+    max-width: 80%;
+}
